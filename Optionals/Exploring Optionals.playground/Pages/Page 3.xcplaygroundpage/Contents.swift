@@ -9,7 +9,13 @@ Try typing the following code:
 
 What is the result?
 */
-
+var x : Int?
+var y : Int? 
+if x == y {
+    print("variables are equal")
+} else {
+    print("variables NOT equal")
+}
 /*:
 
 After you try this, change the second line to:

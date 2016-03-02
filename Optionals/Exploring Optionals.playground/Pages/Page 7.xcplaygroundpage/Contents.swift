@@ -20,7 +20,12 @@ There is. It is called *optional binding*.  Type the following code:
 
 */
 
-/*:
+var dayOfWeek : String? = "Monday"
+if let day = dayOfWeek {
+    print("The day is \(day)")
+} else {
+print("No day was provided")
+}/*:
 Line 2 is the key.
 
 **day** is a temporary constant that is available only inside the first branch of the conditional statement.
